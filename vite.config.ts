@@ -6,6 +6,8 @@ import { fileURLToPath } from "url";
 export default defineConfig({
   plugins: [react()],
 
+  base: "/js-unix/",
+
   define: {
     "process.env": process.env,
   },
