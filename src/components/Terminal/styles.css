@@ -1,0 +1,24 @@
+.terminal {
+  display: flex;
+  flex-direction: column;
+
+  padding: 10px;
+
+  width: 100%;
+  font-family: monospace;
+  min-height: 200px;
+
+  background-color: #222222;
+
+  color: #ffffff;
+
+  height: 100%;
+}
+
+.terminal-output {
+  font-family: monospace;
+  max-height: 15em;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  white-space: pre-wrap;
+}
